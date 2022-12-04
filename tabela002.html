@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            background-color: grey;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.342);
+            width: 600px;
+        }
+
+        a {
+            color:  rgb(199, 0, 0);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        hr {
+            position: relative;
+            background-color: red;
+            width: 600px;
+            height: 3px;
+            border: none;
+            top: -20px;
+        }
+
+        table {
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.164);
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+
+        th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        .number {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .NumberRight {
+            text-align: right;
+        }
+
+        footer {
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de países por população</h1>
+    </header>
+    <!-- TABELAS GRANDES --> <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>País</th>
+                <th>Estimativa da Onu</th>
+                <th>Data</th>
+                <th>Estimativa Oficial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td class="NumberRight">1</td>
+                    <td>China</td>
+                    <td class="number">1.411.780.000</td>
+                    <td class="number">2021</td>
+                    <td><a href="http://www.stats.gov.cn/english/PressRelease/202105/t20210510_1817185.html#">Censo oficial</a></td>
+            </tr>
+            <tr>
+                <td class="NumberRight">2</td>
+                <td>Íindia</td>
+                <td class="number">1.326.155.000</td>
+                <td class="number">2020</td>
+                <td><a href="https://www.indiastat.com/Home/Popclockflash">Estimativa oficial</a></td>
+            </tr>
+            <tr>
+                <td class="NumberRight">3</td>
+                <td>Estados Unidos</td>
+                <td class="number">331.449.281</td>
+                <td class="number">2020</td>
+                <td><a href="https:/www.stats.gov.cn/english">Censo oficial</a></td>
+            </tr>
+            <tr>
+                <td class="NumberRight">4</td>
+                <td>Indonésia</td>
+                <td class="number">273.523.615</td>
+                <td class="number">2020</td>
+                <td><a href="#">Estimativa oficial</a></td>
+            </tr>
+            <tr>
+                <td class="NumberRight">5</td>
+                <td>Paquistão</td>
+                <td class="number">220.892.340</td>
+                <td class="number">2020</td>
+                <td><a href="#">Estimativa oficial</a></td>
+            </tr>
+            <tr>
+                <td class="NumberRight">6</td>
+                <td>Nigéria</td>
+                <td class="number">220.523.615</td>
+                <td class="number">2020</td>
+                <td><a href="#">Estimativa oficial</a></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th> </th>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </tfoot>
+    </table>
+    <footer>Fiquei com preguiça, fonte: <a href="https://pt.wikipedia.org/wiki/Lista_de_pa%C3%ADses_por_popula%C3%A7%C3%A3o">WikiPedia</a></footer>
+</body>
+</html>
