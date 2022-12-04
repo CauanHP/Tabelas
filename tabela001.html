@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
 </head>
+<style>
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table {
+        width: 400px;
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    .tb2 {
+        background-color: gray;
+    }
+
+    #dado {
+        background-color: yellow;
+    }
+
+</style>
 <body>
     <h1>Minha primeira tabela</h1>
     <table>
@@ -14,7 +37,7 @@
              <td>B1</td>
              <td>C1</td>
         </tr>
-        <tr>
+        <tr class="tb2">
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
@@ -26,12 +49,15 @@
         </tr>
         <tr>
             <td>A4</td>
-            <td>B4</td>
+            <td id="dado">B4</td>
             <td>C4</td>
         </tr>
         <tr>
             <td>A5</td>
             <td>B5</td>
+        </tr>
+        <tr>
+            <td>A6</td>
         </tr>
     </table>
 </body>
